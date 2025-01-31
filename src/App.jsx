@@ -4,11 +4,12 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { SortingTable } from './components/SortingTable'
 import { FilteringTable } from './components/FilteringTable'
+import { PaginationTable } from './components/PaginationTable'
 
 function App() {
   return (
     <div className='App'>
-      <FilteringTable />
+      <PaginationTable />
     </div>
   )
 }
